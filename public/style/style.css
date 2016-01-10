@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif, cursive;
+}
+
+.commentBox{
+    font-family: sans-serif, cursive;
+    background: #dfdfdf;
+    color: palevioletred;
+    font-size: 1.1em;
+}
+
+#tittle-container{
+    color: palegreen;
+}
+#factory-container{
+    color: deeppink;
+}
+.title1{
+    color: #B8DABF;
+}
+.title2{
+    color: #6DD0CF;
+}
+.title3{
+    color: #46A8A7;
+}
+
+.app .hint{
+    color: #46A8A7;
+}

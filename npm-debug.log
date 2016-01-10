@@ -1,0 +1,279 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '–save',
+1 verbose cli   'react',
+1 verbose cli   'react-dom',
+1 verbose cli   'babelify',
+1 verbose cli   'babel-preset-react' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.0
+4 silly cache add args [ '–save', null ]
+5 verbose cache add spec –save
+6 verbose install react is installed as 0.14.3
+7 silly cache add args [ 'react@^0.14.3', null ]
+8 verbose cache add spec react@^0.14.3
+9 verbose install react-dom is installed as 0.14.3
+10 silly cache add args [ 'react-dom@^0.14.3', null ]
+11 verbose cache add spec react-dom@^0.14.3
+12 verbose install babelify is installed as 7.2.0
+13 silly cache add args [ 'babelify@^7.2.0', null ]
+14 verbose cache add spec babelify@^7.2.0
+15 verbose install babel-preset-react is installed as 6.3.13
+16 silly cache add args [ 'babel-preset-react@^6.3.13', null ]
+17 verbose cache add spec babel-preset-react@^6.3.13
+18 silly cache add parsed spec { raw: 'react@^0.14.3',
+18 silly cache add   scope: null,
+18 silly cache add   name: 'react',
+18 silly cache add   rawSpec: '^0.14.3',
+18 silly cache add   spec: '>=0.14.3 <0.15.0',
+18 silly cache add   type: 'range' }
+19 verbose addNamed react@>=0.14.3 <0.15.0
+20 silly addNamed semver.valid null
+21 silly addNamed semver.validRange >=0.14.3 <0.15.0
+22 silly addNameRange { name: 'react', range: '>=0.14.3 <0.15.0', hasData: false }
+23 silly mapToRegistry name react
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/react
+27 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+28 silly cache add parsed spec { raw: 'react-dom@^0.14.3',
+28 silly cache add   scope: null,
+28 silly cache add   name: 'react-dom',
+28 silly cache add   rawSpec: '^0.14.3',
+28 silly cache add   spec: '>=0.14.3 <0.15.0',
+28 silly cache add   type: 'range' }
+29 verbose addNamed react-dom@>=0.14.3 <0.15.0
+30 silly addNamed semver.valid null
+31 silly addNamed semver.validRange >=0.14.3 <0.15.0
+32 silly addNameRange { name: 'react-dom', range: '>=0.14.3 <0.15.0', hasData: false }
+33 silly mapToRegistry name react-dom
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+37 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
+38 silly cache add parsed spec { raw: 'babelify@^7.2.0',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'babelify',
+38 silly cache add   rawSpec: '^7.2.0',
+38 silly cache add   spec: '>=7.2.0 <8.0.0',
+38 silly cache add   type: 'range' }
+39 verbose addNamed babelify@>=7.2.0 <8.0.0
+40 silly addNamed semver.valid null
+41 silly addNamed semver.validRange >=7.2.0 <8.0.0
+42 silly addNameRange { name: 'babelify', range: '>=7.2.0 <8.0.0', hasData: false }
+43 silly mapToRegistry name babelify
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/babelify
+47 verbose addNameRange registry:https://registry.npmjs.org/babelify not in flight; fetching
+48 silly cache add parsed spec { raw: 'babel-preset-react@^6.3.13',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'babel-preset-react',
+48 silly cache add   rawSpec: '^6.3.13',
+48 silly cache add   spec: '>=6.3.13 <7.0.0',
+48 silly cache add   type: 'range' }
+49 verbose addNamed babel-preset-react@>=6.3.13 <7.0.0
+50 silly addNamed semver.valid null
+51 silly addNamed semver.validRange >=6.3.13 <7.0.0
+52 silly addNameRange { name: 'babel-preset-react',
+52 silly addNameRange   range: '>=6.3.13 <7.0.0',
+52 silly addNameRange   hasData: false }
+53 silly mapToRegistry name babel-preset-react
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+57 verbose addNameRange registry:https://registry.npmjs.org/babel-preset-react not in flight; fetching
+58 silly cache add parsed spec { raw: '–save',
+58 silly cache add   scope: null,
+58 silly cache add   name: null,
+58 silly cache add   rawSpec: '–save',
+58 silly cache add   spec: '/Users/SweetyMEOW/Dropbox/[Web设计开发]/[教程Packtpub] Mastering ReactJS/reactjs_test/–save',
+58 silly cache add   type: 'local' }
+59 error addLocal Could not install /Users/SweetyMEOW/Dropbox/[Web设计开发]/[教程Packtpub] Mastering ReactJS/reactjs_test/–save
+60 verbose request uri https://registry.npmjs.org/babelify
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 20:33:56
+63 verbose request id d89aeef28d0a11de
+64 verbose etag "B9VJMNRZD6O5ELX6MA6HNNARF"
+65 http request GET https://registry.npmjs.org/babelify
+66 verbose request uri https://registry.npmjs.org/react-dom
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 20:33:56
+69 verbose etag "DMTU1BR7ZVIXAJBN7EJY3ZR4A"
+70 http request GET https://registry.npmjs.org/react-dom
+71 verbose request uri https://registry.npmjs.org/babel-preset-react
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 20:33:56
+74 verbose etag "7EOADXEJWRB68KVLIS8KECE1A"
+75 http request GET https://registry.npmjs.org/babel-preset-react
+76 verbose request uri https://registry.npmjs.org/react
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 20:33:56
+79 verbose etag "6T1VMKTPQU82W71XPZHD1M2J"
+80 http request GET https://registry.npmjs.org/react
+81 http 400 https://registry.npmjs.org/react
+82 verbose headers {}
+83 silly get cb [ 304, undefined ]
+84 verbose etag https://registry.npmjs.org/react from cache
+85 verbose get saving react to /Users/SweetyMEOW/.npm/registry.npmjs.org/react/.cache.json
+86 http 400 https://registry.npmjs.org/babel-preset-react
+87 verbose headers {}
+88 silly get cb [ 304, undefined ]
+89 verbose etag https://registry.npmjs.org/babel-preset-react from cache
+90 verbose get saving babel-preset-react to /Users/SweetyMEOW/.npm/registry.npmjs.org/babel-preset-react/.cache.json
+91 http 400 https://registry.npmjs.org/react-dom
+92 verbose headers {}
+93 silly get cb [ 304, undefined ]
+94 verbose etag https://registry.npmjs.org/react-dom from cache
+95 verbose get saving react-dom to /Users/SweetyMEOW/.npm/registry.npmjs.org/react-dom/.cache.json
+96 silly addNameRange number 2 { name: 'babel-preset-react',
+96 silly addNameRange   range: '>=6.3.13 <7.0.0',
+96 silly addNameRange   hasData: true }
+97 silly addNameRange versions [ 'babel-preset-react',
+97 silly addNameRange   [ '6.0.2',
+97 silly addNameRange     '6.0.12',
+97 silly addNameRange     '6.0.14',
+97 silly addNameRange     '6.0.15',
+97 silly addNameRange     '6.1.2',
+97 silly addNameRange     '6.1.4',
+97 silly addNameRange     '6.1.17',
+97 silly addNameRange     '6.1.18',
+97 silly addNameRange     '6.2.4',
+97 silly addNameRange     '6.3.13' ] ]
+98 verbose addNamed babel-preset-react@6.3.13
+99 silly addNamed semver.valid 6.3.13
+100 silly addNamed semver.validRange 6.3.13
+101 silly addNameRange number 2 { name: 'react', range: '>=0.14.3 <0.15.0', hasData: true }
+102 silly addNameRange versions [ 'react',
+102 silly addNameRange   [ '0.0.1',
+102 silly addNameRange     '0.0.2',
+102 silly addNameRange     '0.0.3',
+102 silly addNameRange     '0.1.2',
+102 silly addNameRange     '0.2.0',
+102 silly addNameRange     '0.2.1',
+102 silly addNameRange     '0.2.2',
+102 silly addNameRange     '0.2.3',
+102 silly addNameRange     '0.2.4',
+102 silly addNameRange     '0.2.5',
+102 silly addNameRange     '0.2.6',
+102 silly addNameRange     '0.3.0',
+102 silly addNameRange     '0.3.4',
+102 silly addNameRange     '0.3.5',
+102 silly addNameRange     '0.5.0',
+102 silly addNameRange     '0.5.1',
+102 silly addNameRange     '0.5.2',
+102 silly addNameRange     '0.6.0',
+102 silly addNameRange     '0.6.1',
+102 silly addNameRange     '0.6.2',
+102 silly addNameRange     '0.6.3',
+102 silly addNameRange     '0.7.0',
+102 silly addNameRange     '0.7.1',
+102 silly addNameRange     '0.8.0',
+102 silly addNameRange     '0.9.0-rc1',
+102 silly addNameRange     '0.9.0',
+102 silly addNameRange     '0.10.0-rc1',
+102 silly addNameRange     '0.10.0',
+102 silly addNameRange     '0.11.0-rc1',
+102 silly addNameRange     '0.11.0',
+102 silly addNameRange     '0.11.1',
+102 silly addNameRange     '0.11.2',
+102 silly addNameRange     '0.12.0-rc1',
+102 silly addNameRange     '0.12.0',
+102 silly addNameRange     '0.12.1',
+102 silly addNameRange     '0.12.2',
+102 silly addNameRange     '0.13.0-alpha.1',
+102 silly addNameRange     '0.13.0-alpha.2',
+102 silly addNameRange     '0.13.0-beta.1',
+102 silly addNameRange     '0.13.0-beta.2',
+102 silly addNameRange     '0.13.0-rc1',
+102 silly addNameRange     '0.13.0-rc2',
+102 silly addNameRange     '0.13.0',
+102 silly addNameRange     '0.13.1',
+102 silly addNameRange     '0.13.2',
+102 silly addNameRange     '0.13.3',
+102 silly addNameRange     '0.14.0-alpha1',
+102 silly addNameRange     '0.14.0-alpha2',
+102 silly addNameRange     '0.14.0-alpha3',
+102 silly addNameRange     '0.14.0-beta1',
+102 silly addNameRange     '0.14.0-beta2',
+102 silly addNameRange     '0.14.0-beta3',
+102 silly addNameRange     '0.14.0-rc1',
+102 silly addNameRange     '0.14.0',
+102 silly addNameRange     '0.14.1',
+102 silly addNameRange     '0.14.2',
+102 silly addNameRange     '0.14.3' ] ]
+103 verbose addNamed react@0.14.3
+104 silly addNamed semver.valid 0.14.3
+105 silly addNamed semver.validRange 0.14.3
+106 silly addNameRange number 2 { name: 'react-dom', range: '>=0.14.3 <0.15.0', hasData: true }
+107 silly addNameRange versions [ 'react-dom',
+107 silly addNameRange   [ '0.1.0',
+107 silly addNameRange     '0.14.0-beta1',
+107 silly addNameRange     '0.14.0-beta2',
+107 silly addNameRange     '0.14.0-beta3',
+107 silly addNameRange     '0.14.0-rc1',
+107 silly addNameRange     '0.14.0',
+107 silly addNameRange     '0.14.1',
+107 silly addNameRange     '0.14.2',
+107 silly addNameRange     '0.14.3' ] ]
+108 verbose addNamed react-dom@0.14.3
+109 silly addNamed semver.valid 0.14.3
+110 silly addNamed semver.validRange 0.14.3
+111 http 400 https://registry.npmjs.org/babelify
+112 verbose headers {}
+113 silly get cb [ 304, undefined ]
+114 verbose etag https://registry.npmjs.org/babelify from cache
+115 verbose get saving babelify to /Users/SweetyMEOW/.npm/registry.npmjs.org/babelify/.cache.json
+116 silly cache afterAdd babel-preset-react@6.3.13
+117 verbose afterAdd /Users/SweetyMEOW/.npm/babel-preset-react/6.3.13/package/package.json not in flight; writing
+118 silly cache afterAdd react@0.14.3
+119 verbose afterAdd /Users/SweetyMEOW/.npm/react/0.14.3/package/package.json not in flight; writing
+120 silly cache afterAdd react-dom@0.14.3
+121 verbose afterAdd /Users/SweetyMEOW/.npm/react-dom/0.14.3/package/package.json not in flight; writing
+122 silly addNameRange number 2 { name: 'babelify', range: '>=7.2.0 <8.0.0', hasData: true }
+123 silly addNameRange versions [ 'babelify',
+123 silly addNameRange   [ '5.0.1',
+123 silly addNameRange     '5.0.2',
+123 silly addNameRange     '5.0.3',
+123 silly addNameRange     '5.0.4',
+123 silly addNameRange     '6.0.0',
+123 silly addNameRange     '5.0.5',
+123 silly addNameRange     '6.0.1',
+123 silly addNameRange     '6.0.2',
+123 silly addNameRange     '6.1.0',
+123 silly addNameRange     '6.1.1',
+123 silly addNameRange     '6.1.2',
+123 silly addNameRange     '6.1.3',
+123 silly addNameRange     '6.2.0',
+123 silly addNameRange     '6.3.0',
+123 silly addNameRange     '6.4.0',
+123 silly addNameRange     '7.0.0',
+123 silly addNameRange     '7.0.1',
+123 silly addNameRange     '7.0.2',
+123 silly addNameRange     '7.1.0',
+123 silly addNameRange     '7.2.0' ] ]
+124 verbose addNamed babelify@7.2.0
+125 silly addNamed semver.valid 7.2.0
+126 silly addNamed semver.validRange 7.2.0
+127 verbose afterAdd /Users/SweetyMEOW/.npm/react/0.14.3/package/package.json written
+128 verbose afterAdd /Users/SweetyMEOW/.npm/babel-preset-react/6.3.13/package/package.json written
+129 verbose afterAdd /Users/SweetyMEOW/.npm/react-dom/0.14.3/package/package.json written
+130 silly cache afterAdd babelify@7.2.0
+131 verbose afterAdd /Users/SweetyMEOW/.npm/babelify/7.2.0/package/package.json not in flight; writing
+132 verbose afterAdd /Users/SweetyMEOW/.npm/babelify/7.2.0/package/package.json written
+133 verbose stack Error: ENOENT, open '/Users/SweetyMEOW/Dropbox/[Web设计开发]/[教程Packtpub] Mastering ReactJS/reactjs_test/–save'
+133 verbose stack     at Error (native)
+134 verbose cwd /Users/SweetyMEOW/Dropbox/[Web设计开发]/[教程Packtpub] Mastering ReactJS/reactjs_test
+135 error Darwin 15.2.0
+136 error argv "node" "/usr/local/bin/npm" "install" "–save" "react" "react-dom" "babelify" "babel-preset-react"
+137 error node v0.12.0
+138 error npm  v2.7.4
+139 error path /Users/SweetyMEOW/Dropbox/[Web设计开发]/[教程Packtpub] Mastering ReactJS/reactjs_test/–save
+140 error code ENOENT
+141 error errno -2
+142 error enoent ENOENT, open '/Users/SweetyMEOW/Dropbox/[Web设计开发]/[教程Packtpub] Mastering ReactJS/reactjs_test/–save'
+142 error enoent This is most likely not a problem with npm itself
+142 error enoent and is related to npm not being able to find a file.
+143 verbose exit [ -2, true ]
